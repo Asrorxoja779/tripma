@@ -11,6 +11,11 @@ body {
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .container {
     width: 1440px;
     margin: 0 auto;
@@ -364,6 +369,11 @@ body {
     color: #99aed8;
 }
 
+.ranking__icon {
+    width: 48px;
+    height: 48px;
+}
+
 /*ranking section End */
 
 /* Footer section */
@@ -422,6 +432,12 @@ body {
     gap: 20px;
     padding: 8px;
     cursor: pointer;
+}
+
+
+.icon__footer {
+    width: 24px;
+    height: 24px;
 }
 
 @media screen and (max-width:700px) {
